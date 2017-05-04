@@ -39,5 +39,3 @@ a--;
 alert(a);/**!/
 var a = (5, 6);
 alert(a);*/
-for(var i=0; i<15; ++i);
-alert(i);
