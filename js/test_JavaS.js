@@ -39,11 +39,36 @@ a--;
 alert(a);/**!/
 var a = (5, 6);
 alert(a);*/
+/*
+ var i = 3;
+ var a = i++ ;
+ alert(a);
 
-var i = 3;
-var a = i++ ;
-alert(a);
+ var i = 3;
+ var a = ++i ;
+ alert(a);*/
+/*
 
-var i = 3;
-var a = ++i ;
-alert(a);
+var i = 0;
+i++;
+++i;
+alert(i);
+
+var i = 2;
+++i;
+alert(i);
+
+var i = 1;
+alert(2*i++);
+
+var i = 1;
+alert(2*++i);
+*/
+/*
+var i = 1;
+alert(2*i);
+i++;*/
+
+alert(null == undefined);
+alert (null>0);
+alert(null==0);
