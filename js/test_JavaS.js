@@ -39,3 +39,11 @@ a--;
 alert(a);/**!/
 var a = (5, 6);
 alert(a);*/
+
+var i = 3;
+var a = i++ ;
+alert(a);
+
+var i = 3;
+var a = ++i ;
+alert(a);
