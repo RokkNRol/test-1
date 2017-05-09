@@ -72,6 +72,7 @@ i++;*/
 alert(null == undefined);
 alert (null>0);
 alert(null==0);*/
+/*
 
 var login = prompt("Login", "");
 var admin = login;
@@ -89,3 +90,13 @@ if(login === "admin") {
 } else {
     alert("ай-ай-ай, нужно знать пароль ;-)))");
 }
+*/
+
+var begIntNum = prompt("Введите любое число", "");
+    if(begIntNum >= 1) {
+        alert(1);
+    } else if(begIntNum <= -1) {
+        alert(-1);
+    } else{
+        alert(0);
+    }
