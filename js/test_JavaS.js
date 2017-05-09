@@ -91,6 +91,7 @@ if(login === "admin") {
     alert("ай-ай-ай, нужно знать пароль ;-)))");
 }
 */
+/*
 
 var begIntNum = prompt("Введите любое число", "");
     if(begIntNum > 0) {
@@ -99,4 +100,19 @@ var begIntNum = prompt("Введите любое число", "");
         alert(-1);
     } else{
         alert(0);
-    }
+    }*/
+
+/*
+var age = prompt("Years", "");
+    if(age<=25 || age>=90) {
+        alert("Верно");
+} else {
+        alert("Не верно");
+}*/
+
+var age = 25;
+if(age>=25 && age<=90) {
+    alert("Верно");
+} else {
+    alert(no-no);
+}
