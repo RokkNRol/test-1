@@ -93,9 +93,9 @@ if(login === "admin") {
 */
 
 var begIntNum = prompt("Введите любое число", "");
-    if(begIntNum >= 1) {
+    if(begIntNum > 0) {
         alert(1);
-    } else if(begIntNum <= -1) {
+    } else if(begIntNum < 0) {
         alert(-1);
     } else{
         alert(0);
