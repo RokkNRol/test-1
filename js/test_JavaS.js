@@ -74,16 +74,17 @@ alert (null>0);
 alert(null==0);*/
 
 var login = prompt("Login", "");
-if(login == "admin") {
+var admin = login;
+if(login === "admin") {
     var passw = prompt("Password", "");
-        if (passw == "12345") {
+        if (passw === "12345") {
         alert("Привет!!!");
-    }   else if(passw == null) {
+    }   else if(passw === null) {
         alert("Как жаль, до скорой встречи!");
     }   else {
         alert("Как, ты не знаешь пароль?");
     }
-} else if(login == null) {
+} else if(login === null) {
     alert("Как, ты уже уходишь?");
 } else {
     alert("ай-ай-ай, нужно знать пароль ;-)))");
