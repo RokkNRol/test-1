@@ -110,9 +110,10 @@ var age = prompt("Years", "");
         alert("Не верно");
 }*/
 
+/*
 var age = 25;
 if(age>=25 && age<=90) {
     alert("Верно");
 } else {
     alert(no-no);
-}
+}*/
