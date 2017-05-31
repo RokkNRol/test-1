@@ -92,7 +92,7 @@
 }
 h1 {
     font-size: 30px;
-    font-family: "Arial" sans-serif;
+    font-family: "Arial";
     color: #a5adb8;
     font-weight: bold;
     line-height: 0.467;
@@ -101,10 +101,9 @@ h1 {
     left: 39px;
     top: 44px;
 }
-
 .and_go_for {
     font-size: 18px;
-    font-family: "Arial" sans-serif;
+    font-family: "Arial", sans-serif;
     color: rgb(40, 45, 51);
     font-weight: bold;
     line-height: 0.778;
@@ -115,7 +114,7 @@ h1 {
 }
 .today_good {
     font-size: 18px;
-    font-family: "Arial" sans-serif;
+    font-family: "Arial", sans-serif;
     color: rgb(165, 173, 184);
     font-weight: bold;
     line-height: 0.778;
@@ -127,7 +126,7 @@ h1 {
 .lorem_ipsum {
     width: 489px;
     font-size: 14px;
-    font-family: "Arial" sans-serif;
+    font-family: "Arial;
     color: rgb(217, 220, 223);
     line-height: 1.286;
     text-align: left;
