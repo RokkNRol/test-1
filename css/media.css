@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    width: 1300px;
+    width: 100%;
     height: 1620px;
     background: url(../img/bg_body.png) no-repeat 0 0;
     margin: 0 auto;
@@ -17,7 +17,7 @@
 }
 
 .header_top {
-    width: 1300px;
+    width: 100%;
     height: 72px;
     background: url(../img/bg_wrapper.png) repeat-X 0 0;
     margin:0 auto;
@@ -78,17 +78,15 @@
 
 
 .top-section {
-    width: 980px;
+    width: 100%;
     height: 301px;
     margin: 0 auto;
     border-top: 1px solid #424850;
     position: relative;
 }
 
-.header_picture {
-    width: 980px;
+.header_p {
     height: 240px;
-    background: url(../img/bg_header.png) no-repeat 0 0;
 }
 h1 {
     font-size: 30px;
@@ -125,7 +123,7 @@ h1 {
     top: 109px;
 }
 .lorem_ipsum {
-    width: 489px;
+    width: 40%;
     font-size: 14px;
     font-family: "Arial" sans-serif;
     color: rgb(217, 220, 223);
@@ -140,6 +138,7 @@ h1 {
     width: 100%;
     height: 36px;
     list-style: none;
+
 }
 .ul_header a {
     text-decoration: none;
@@ -386,4 +385,17 @@ h1:first-letter,
 .central_h2:first-letter,
 .block_ul_p:first-letter {
     color: rgb(174, 95, 73);
+}
+
+.header_pic {
+	max-width: 100%;
+}
+
+.nav_header {
+	margin: 0 auto;
+}
+
+.head-pict {
+	width:100%;
+	height: 240px;
 }
